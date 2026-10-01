@@ -1,0 +1,4 @@
+warning
+"Price history starts at 2018-01-01, which may be too late to compute a full 12-month momentum signal by 2015-01-01."
+Requested start date 2015-01-01 was shifted to 2019-01-01 because local data coverage starts later.
+No eligible securities on 2019-01-01 for the price-only strategy.

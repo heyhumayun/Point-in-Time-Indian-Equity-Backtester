@@ -1,0 +1,1355 @@
+{
+  "price_coverage": {
+    "requested_warmup_start": "2006-08-13",
+    "requested_end_date": "2025-12-31",
+    "available_start_date": "1996-01-01",
+    "available_end_date": "2026-01-02",
+    "has_required_warmup": true,
+    "has_required_end_date": true
+  },
+  "ticker_coverage": {
+    "expected_universe_tickers": 492,
+    "tickers_with_prices": 492,
+    "coverage_pct": 100.0
+  },
+  "benchmark_coverage": {
+    "nifty_50": {
+      "symbol": "^NSEI",
+      "rows": 4489,
+      "start_date": "2007-09-17",
+      "end_date": "2026-01-02",
+      "has_full_window": true
+    },
+    "nifty_500": {
+      "symbol": "^CRSLDX",
+      "rows": 4986,
+      "start_date": "2005-09-26",
+      "end_date": "2026-01-02",
+      "has_full_window": true
+    }
+  },
+  "missing_data_percentage": 0.0001,
+  "rebalance_day_open_availability_pct": 100.0,
+  "eligible_ticker_count_by_rebalance_month": [
+    {
+      "date": "2007-09-17",
+      "eligible_ticker_count": 281,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2007-10-01",
+      "eligible_ticker_count": 281,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2007-11-01",
+      "eligible_ticker_count": 282,
+      "count_change": 1.0,
+      "count_change_pct": 0.3559
+    },
+    {
+      "date": "2007-12-03",
+      "eligible_ticker_count": 285,
+      "count_change": 3.0,
+      "count_change_pct": 1.0638
+    },
+    {
+      "date": "2008-01-01",
+      "eligible_ticker_count": 288,
+      "count_change": 3.0,
+      "count_change_pct": 1.0526
+    },
+    {
+      "date": "2008-02-01",
+      "eligible_ticker_count": 289,
+      "count_change": 1.0,
+      "count_change_pct": 0.3472
+    },
+    {
+      "date": "2008-03-03",
+      "eligible_ticker_count": 292,
+      "count_change": 3.0,
+      "count_change_pct": 1.0381
+    },
+    {
+      "date": "2008-04-01",
+      "eligible_ticker_count": 294,
+      "count_change": 2.0,
+      "count_change_pct": 0.6849
+    },
+    {
+      "date": "2008-05-02",
+      "eligible_ticker_count": 295,
+      "count_change": 1.0,
+      "count_change_pct": 0.3401
+    },
+    {
+      "date": "2008-06-02",
+      "eligible_ticker_count": 295,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2008-07-01",
+      "eligible_ticker_count": 295,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2008-08-01",
+      "eligible_ticker_count": 296,
+      "count_change": 1.0,
+      "count_change_pct": 0.339
+    },
+    {
+      "date": "2008-09-01",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2008-10-01",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2008-11-03",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2008-12-01",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-01-02",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-02-02",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-03-02",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-04-01",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-05-04",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-06-01",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-07-01",
+      "eligible_ticker_count": 296,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-08-03",
+      "eligible_ticker_count": 297,
+      "count_change": 1.0,
+      "count_change_pct": 0.3378
+    },
+    {
+      "date": "2009-09-01",
+      "eligible_ticker_count": 299,
+      "count_change": 2.0,
+      "count_change_pct": 0.6734
+    },
+    {
+      "date": "2009-10-01",
+      "eligible_ticker_count": 300,
+      "count_change": 1.0,
+      "count_change_pct": 0.3344
+    },
+    {
+      "date": "2009-11-03",
+      "eligible_ticker_count": 300,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2009-12-01",
+      "eligible_ticker_count": 301,
+      "count_change": 1.0,
+      "count_change_pct": 0.3333
+    },
+    {
+      "date": "2010-01-04",
+      "eligible_ticker_count": 302,
+      "count_change": 1.0,
+      "count_change_pct": 0.3322
+    },
+    {
+      "date": "2010-02-01",
+      "eligible_ticker_count": 307,
+      "count_change": 5.0,
+      "count_change_pct": 1.6556
+    },
+    {
+      "date": "2010-03-02",
+      "eligible_ticker_count": 308,
+      "count_change": 1.0,
+      "count_change_pct": 0.3257
+    },
+    {
+      "date": "2010-04-01",
+      "eligible_ticker_count": 308,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2010-05-03",
+      "eligible_ticker_count": 309,
+      "count_change": 1.0,
+      "count_change_pct": 0.3247
+    },
+    {
+      "date": "2010-06-01",
+      "eligible_ticker_count": 310,
+      "count_change": 1.0,
+      "count_change_pct": 0.3236
+    },
+    {
+      "date": "2010-07-01",
+      "eligible_ticker_count": 311,
+      "count_change": 1.0,
+      "count_change_pct": 0.3226
+    },
+    {
+      "date": "2010-08-02",
+      "eligible_ticker_count": 311,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2010-09-01",
+      "eligible_ticker_count": 311,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2010-10-01",
+      "eligible_ticker_count": 313,
+      "count_change": 2.0,
+      "count_change_pct": 0.6431
+    },
+    {
+      "date": "2010-11-01",
+      "eligible_ticker_count": 317,
+      "count_change": 4.0,
+      "count_change_pct": 1.278
+    },
+    {
+      "date": "2010-12-01",
+      "eligible_ticker_count": 318,
+      "count_change": 1.0,
+      "count_change_pct": 0.3155
+    },
+    {
+      "date": "2011-01-03",
+      "eligible_ticker_count": 318,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2011-02-01",
+      "eligible_ticker_count": 318,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2011-03-01",
+      "eligible_ticker_count": 318,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2011-04-01",
+      "eligible_ticker_count": 318,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2011-05-02",
+      "eligible_ticker_count": 318,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2011-06-01",
+      "eligible_ticker_count": 319,
+      "count_change": 1.0,
+      "count_change_pct": 0.3145
+    },
+    {
+      "date": "2011-07-01",
+      "eligible_ticker_count": 320,
+      "count_change": 1.0,
+      "count_change_pct": 0.3135
+    },
+    {
+      "date": "2011-08-01",
+      "eligible_ticker_count": 320,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2011-09-02",
+      "eligible_ticker_count": 321,
+      "count_change": 1.0,
+      "count_change_pct": 0.3125
+    },
+    {
+      "date": "2011-10-03",
+      "eligible_ticker_count": 322,
+      "count_change": 1.0,
+      "count_change_pct": 0.3115
+    },
+    {
+      "date": "2011-11-01",
+      "eligible_ticker_count": 323,
+      "count_change": 1.0,
+      "count_change_pct": 0.3106
+    },
+    {
+      "date": "2011-12-01",
+      "eligible_ticker_count": 323,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2012-01-02",
+      "eligible_ticker_count": 325,
+      "count_change": 2.0,
+      "count_change_pct": 0.6192
+    },
+    {
+      "date": "2012-02-01",
+      "eligible_ticker_count": 325,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2012-03-01",
+      "eligible_ticker_count": 325,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2012-04-02",
+      "eligible_ticker_count": 329,
+      "count_change": 4.0,
+      "count_change_pct": 1.2308
+    },
+    {
+      "date": "2012-05-02",
+      "eligible_ticker_count": 330,
+      "count_change": 1.0,
+      "count_change_pct": 0.304
+    },
+    {
+      "date": "2012-06-01",
+      "eligible_ticker_count": 330,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2012-07-02",
+      "eligible_ticker_count": 330,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2012-08-01",
+      "eligible_ticker_count": 331,
+      "count_change": 1.0,
+      "count_change_pct": 0.303
+    },
+    {
+      "date": "2012-09-03",
+      "eligible_ticker_count": 331,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2012-10-01",
+      "eligible_ticker_count": 331,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2012-11-01",
+      "eligible_ticker_count": 331,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2012-12-03",
+      "eligible_ticker_count": 331,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-01-01",
+      "eligible_ticker_count": 332,
+      "count_change": 1.0,
+      "count_change_pct": 0.3021
+    },
+    {
+      "date": "2013-02-01",
+      "eligible_ticker_count": 332,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-03-01",
+      "eligible_ticker_count": 332,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-04-01",
+      "eligible_ticker_count": 332,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-05-02",
+      "eligible_ticker_count": 332,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-06-03",
+      "eligible_ticker_count": 332,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-07-01",
+      "eligible_ticker_count": 333,
+      "count_change": 1.0,
+      "count_change_pct": 0.3012
+    },
+    {
+      "date": "2013-08-01",
+      "eligible_ticker_count": 335,
+      "count_change": 2.0,
+      "count_change_pct": 0.6006
+    },
+    {
+      "date": "2013-09-02",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-10-01",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-11-01",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2013-12-02",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-01-01",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-02-03",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-03-03",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-04-01",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-05-02",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-06-02",
+      "eligible_ticker_count": 335,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-07-01",
+      "eligible_ticker_count": 336,
+      "count_change": 1.0,
+      "count_change_pct": 0.2985
+    },
+    {
+      "date": "2014-08-01",
+      "eligible_ticker_count": 336,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-09-01",
+      "eligible_ticker_count": 336,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-10-01",
+      "eligible_ticker_count": 336,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-11-03",
+      "eligible_ticker_count": 336,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2014-12-01",
+      "eligible_ticker_count": 336,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2015-01-01",
+      "eligible_ticker_count": 337,
+      "count_change": 1.0,
+      "count_change_pct": 0.2976
+    },
+    {
+      "date": "2015-02-02",
+      "eligible_ticker_count": 337,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2015-03-02",
+      "eligible_ticker_count": 337,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2015-04-01",
+      "eligible_ticker_count": 337,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2015-05-04",
+      "eligible_ticker_count": 338,
+      "count_change": 1.0,
+      "count_change_pct": 0.2967
+    },
+    {
+      "date": "2015-06-01",
+      "eligible_ticker_count": 339,
+      "count_change": 1.0,
+      "count_change_pct": 0.2959
+    },
+    {
+      "date": "2015-07-01",
+      "eligible_ticker_count": 339,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2015-08-03",
+      "eligible_ticker_count": 340,
+      "count_change": 1.0,
+      "count_change_pct": 0.295
+    },
+    {
+      "date": "2015-09-01",
+      "eligible_ticker_count": 341,
+      "count_change": 1.0,
+      "count_change_pct": 0.2941
+    },
+    {
+      "date": "2015-10-01",
+      "eligible_ticker_count": 342,
+      "count_change": 1.0,
+      "count_change_pct": 0.2933
+    },
+    {
+      "date": "2015-11-02",
+      "eligible_ticker_count": 342,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2015-12-01",
+      "eligible_ticker_count": 344,
+      "count_change": 2.0,
+      "count_change_pct": 0.5848
+    },
+    {
+      "date": "2016-01-01",
+      "eligible_ticker_count": 346,
+      "count_change": 2.0,
+      "count_change_pct": 0.5814
+    },
+    {
+      "date": "2016-02-01",
+      "eligible_ticker_count": 347,
+      "count_change": 1.0,
+      "count_change_pct": 0.289
+    },
+    {
+      "date": "2016-03-01",
+      "eligible_ticker_count": 347,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2016-04-01",
+      "eligible_ticker_count": 347,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2016-05-02",
+      "eligible_ticker_count": 347,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2016-06-01",
+      "eligible_ticker_count": 348,
+      "count_change": 1.0,
+      "count_change_pct": 0.2882
+    },
+    {
+      "date": "2016-07-01",
+      "eligible_ticker_count": 350,
+      "count_change": 2.0,
+      "count_change_pct": 0.5747
+    },
+    {
+      "date": "2016-08-01",
+      "eligible_ticker_count": 351,
+      "count_change": 1.0,
+      "count_change_pct": 0.2857
+    },
+    {
+      "date": "2016-09-01",
+      "eligible_ticker_count": 352,
+      "count_change": 1.0,
+      "count_change_pct": 0.2849
+    },
+    {
+      "date": "2016-10-03",
+      "eligible_ticker_count": 354,
+      "count_change": 2.0,
+      "count_change_pct": 0.5682
+    },
+    {
+      "date": "2016-11-01",
+      "eligible_ticker_count": 355,
+      "count_change": 1.0,
+      "count_change_pct": 0.2825
+    },
+    {
+      "date": "2016-12-01",
+      "eligible_ticker_count": 357,
+      "count_change": 2.0,
+      "count_change_pct": 0.5634
+    },
+    {
+      "date": "2017-01-02",
+      "eligible_ticker_count": 358,
+      "count_change": 1.0,
+      "count_change_pct": 0.2801
+    },
+    {
+      "date": "2017-02-01",
+      "eligible_ticker_count": 358,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2017-03-01",
+      "eligible_ticker_count": 359,
+      "count_change": 1.0,
+      "count_change_pct": 0.2793
+    },
+    {
+      "date": "2017-04-03",
+      "eligible_ticker_count": 360,
+      "count_change": 1.0,
+      "count_change_pct": 0.2786
+    },
+    {
+      "date": "2017-05-02",
+      "eligible_ticker_count": 360,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2017-06-01",
+      "eligible_ticker_count": 361,
+      "count_change": 1.0,
+      "count_change_pct": 0.2778
+    },
+    {
+      "date": "2017-07-03",
+      "eligible_ticker_count": 364,
+      "count_change": 3.0,
+      "count_change_pct": 0.831
+    },
+    {
+      "date": "2017-08-01",
+      "eligible_ticker_count": 365,
+      "count_change": 1.0,
+      "count_change_pct": 0.2747
+    },
+    {
+      "date": "2017-09-01",
+      "eligible_ticker_count": 367,
+      "count_change": 2.0,
+      "count_change_pct": 0.5479
+    },
+    {
+      "date": "2017-10-03",
+      "eligible_ticker_count": 370,
+      "count_change": 3.0,
+      "count_change_pct": 0.8174
+    },
+    {
+      "date": "2017-11-01",
+      "eligible_ticker_count": 372,
+      "count_change": 2.0,
+      "count_change_pct": 0.5405
+    },
+    {
+      "date": "2017-12-01",
+      "eligible_ticker_count": 376,
+      "count_change": 4.0,
+      "count_change_pct": 1.0753
+    },
+    {
+      "date": "2018-01-01",
+      "eligible_ticker_count": 376,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2018-02-01",
+      "eligible_ticker_count": 377,
+      "count_change": 1.0,
+      "count_change_pct": 0.266
+    },
+    {
+      "date": "2018-03-01",
+      "eligible_ticker_count": 378,
+      "count_change": 1.0,
+      "count_change_pct": 0.2653
+    },
+    {
+      "date": "2018-04-02",
+      "eligible_ticker_count": 382,
+      "count_change": 4.0,
+      "count_change_pct": 1.0582
+    },
+    {
+      "date": "2018-05-02",
+      "eligible_ticker_count": 383,
+      "count_change": 1.0,
+      "count_change_pct": 0.2618
+    },
+    {
+      "date": "2018-06-01",
+      "eligible_ticker_count": 384,
+      "count_change": 1.0,
+      "count_change_pct": 0.2611
+    },
+    {
+      "date": "2018-07-02",
+      "eligible_ticker_count": 386,
+      "count_change": 2.0,
+      "count_change_pct": 0.5208
+    },
+    {
+      "date": "2018-08-01",
+      "eligible_ticker_count": 388,
+      "count_change": 2.0,
+      "count_change_pct": 0.5181
+    },
+    {
+      "date": "2018-09-03",
+      "eligible_ticker_count": 390,
+      "count_change": 2.0,
+      "count_change_pct": 0.5155
+    },
+    {
+      "date": "2018-10-01",
+      "eligible_ticker_count": 391,
+      "count_change": 1.0,
+      "count_change_pct": 0.2564
+    },
+    {
+      "date": "2018-11-01",
+      "eligible_ticker_count": 393,
+      "count_change": 2.0,
+      "count_change_pct": 0.5115
+    },
+    {
+      "date": "2018-12-03",
+      "eligible_ticker_count": 394,
+      "count_change": 1.0,
+      "count_change_pct": 0.2545
+    },
+    {
+      "date": "2019-01-01",
+      "eligible_ticker_count": 395,
+      "count_change": 1.0,
+      "count_change_pct": 0.2538
+    },
+    {
+      "date": "2019-02-01",
+      "eligible_ticker_count": 395,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2019-03-01",
+      "eligible_ticker_count": 396,
+      "count_change": 1.0,
+      "count_change_pct": 0.2532
+    },
+    {
+      "date": "2019-04-01",
+      "eligible_ticker_count": 396,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2019-05-02",
+      "eligible_ticker_count": 400,
+      "count_change": 4.0,
+      "count_change_pct": 1.0101
+    },
+    {
+      "date": "2019-06-03",
+      "eligible_ticker_count": 400,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2019-07-01",
+      "eligible_ticker_count": 400,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2019-08-01",
+      "eligible_ticker_count": 401,
+      "count_change": 1.0,
+      "count_change_pct": 0.25
+    },
+    {
+      "date": "2019-09-03",
+      "eligible_ticker_count": 404,
+      "count_change": 3.0,
+      "count_change_pct": 0.7481
+    },
+    {
+      "date": "2019-10-01",
+      "eligible_ticker_count": 406,
+      "count_change": 2.0,
+      "count_change_pct": 0.495
+    },
+    {
+      "date": "2019-11-01",
+      "eligible_ticker_count": 408,
+      "count_change": 2.0,
+      "count_change_pct": 0.4926
+    },
+    {
+      "date": "2019-12-02",
+      "eligible_ticker_count": 408,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2020-01-01",
+      "eligible_ticker_count": 411,
+      "count_change": 3.0,
+      "count_change_pct": 0.7353
+    },
+    {
+      "date": "2020-02-03",
+      "eligible_ticker_count": 412,
+      "count_change": 1.0,
+      "count_change_pct": 0.2433
+    },
+    {
+      "date": "2020-03-02",
+      "eligible_ticker_count": 412,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2020-04-01",
+      "eligible_ticker_count": 414,
+      "count_change": 2.0,
+      "count_change_pct": 0.4854
+    },
+    {
+      "date": "2020-05-04",
+      "eligible_ticker_count": 414,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2020-06-01",
+      "eligible_ticker_count": 414,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2020-07-01",
+      "eligible_ticker_count": 414,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2020-08-03",
+      "eligible_ticker_count": 414,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2020-09-01",
+      "eligible_ticker_count": 415,
+      "count_change": 1.0,
+      "count_change_pct": 0.2415
+    },
+    {
+      "date": "2020-10-01",
+      "eligible_ticker_count": 417,
+      "count_change": 2.0,
+      "count_change_pct": 0.4819
+    },
+    {
+      "date": "2020-11-02",
+      "eligible_ticker_count": 422,
+      "count_change": 5.0,
+      "count_change_pct": 1.199
+    },
+    {
+      "date": "2020-12-01",
+      "eligible_ticker_count": 423,
+      "count_change": 1.0,
+      "count_change_pct": 0.237
+    },
+    {
+      "date": "2021-01-04",
+      "eligible_ticker_count": 424,
+      "count_change": 1.0,
+      "count_change_pct": 0.2364
+    },
+    {
+      "date": "2021-02-01",
+      "eligible_ticker_count": 425,
+      "count_change": 1.0,
+      "count_change_pct": 0.2358
+    },
+    {
+      "date": "2021-03-01",
+      "eligible_ticker_count": 428,
+      "count_change": 3.0,
+      "count_change_pct": 0.7059
+    },
+    {
+      "date": "2021-04-01",
+      "eligible_ticker_count": 435,
+      "count_change": 7.0,
+      "count_change_pct": 1.6355
+    },
+    {
+      "date": "2021-05-03",
+      "eligible_ticker_count": 436,
+      "count_change": 1.0,
+      "count_change_pct": 0.2299
+    },
+    {
+      "date": "2021-06-01",
+      "eligible_ticker_count": 436,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2021-07-01",
+      "eligible_ticker_count": 439,
+      "count_change": 3.0,
+      "count_change_pct": 0.6881
+    },
+    {
+      "date": "2021-08-02",
+      "eligible_ticker_count": 441,
+      "count_change": 2.0,
+      "count_change_pct": 0.4556
+    },
+    {
+      "date": "2021-09-01",
+      "eligible_ticker_count": 446,
+      "count_change": 5.0,
+      "count_change_pct": 1.1338
+    },
+    {
+      "date": "2021-10-01",
+      "eligible_ticker_count": 447,
+      "count_change": 1.0,
+      "count_change_pct": 0.2242
+    },
+    {
+      "date": "2021-11-01",
+      "eligible_ticker_count": 447,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2021-12-01",
+      "eligible_ticker_count": 452,
+      "count_change": 5.0,
+      "count_change_pct": 1.1186
+    },
+    {
+      "date": "2022-01-03",
+      "eligible_ticker_count": 458,
+      "count_change": 6.0,
+      "count_change_pct": 1.3274
+    },
+    {
+      "date": "2022-02-01",
+      "eligible_ticker_count": 458,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2022-03-02",
+      "eligible_ticker_count": 460,
+      "count_change": 2.0,
+      "count_change_pct": 0.4367
+    },
+    {
+      "date": "2022-04-01",
+      "eligible_ticker_count": 461,
+      "count_change": 1.0,
+      "count_change_pct": 0.2174
+    },
+    {
+      "date": "2022-05-02",
+      "eligible_ticker_count": 461,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2022-06-01",
+      "eligible_ticker_count": 465,
+      "count_change": 4.0,
+      "count_change_pct": 0.8677
+    },
+    {
+      "date": "2022-07-01",
+      "eligible_ticker_count": 466,
+      "count_change": 1.0,
+      "count_change_pct": 0.2151
+    },
+    {
+      "date": "2022-08-01",
+      "eligible_ticker_count": 466,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2022-09-01",
+      "eligible_ticker_count": 467,
+      "count_change": 1.0,
+      "count_change_pct": 0.2146
+    },
+    {
+      "date": "2022-10-03",
+      "eligible_ticker_count": 468,
+      "count_change": 1.0,
+      "count_change_pct": 0.2141
+    },
+    {
+      "date": "2022-11-01",
+      "eligible_ticker_count": 469,
+      "count_change": 1.0,
+      "count_change_pct": 0.2137
+    },
+    {
+      "date": "2022-12-01",
+      "eligible_ticker_count": 474,
+      "count_change": 5.0,
+      "count_change_pct": 1.0661
+    },
+    {
+      "date": "2023-01-02",
+      "eligible_ticker_count": 475,
+      "count_change": 1.0,
+      "count_change_pct": 0.211
+    },
+    {
+      "date": "2023-02-01",
+      "eligible_ticker_count": 475,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2023-03-01",
+      "eligible_ticker_count": 476,
+      "count_change": 1.0,
+      "count_change_pct": 0.2105
+    },
+    {
+      "date": "2023-04-03",
+      "eligible_ticker_count": 476,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2023-05-02",
+      "eligible_ticker_count": 476,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2023-06-01",
+      "eligible_ticker_count": 477,
+      "count_change": 1.0,
+      "count_change_pct": 0.2101
+    },
+    {
+      "date": "2023-07-03",
+      "eligible_ticker_count": 477,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2023-08-01",
+      "eligible_ticker_count": 478,
+      "count_change": 1.0,
+      "count_change_pct": 0.2096
+    },
+    {
+      "date": "2023-09-01",
+      "eligible_ticker_count": 482,
+      "count_change": 4.0,
+      "count_change_pct": 0.8368
+    },
+    {
+      "date": "2023-10-03",
+      "eligible_ticker_count": 486,
+      "count_change": 4.0,
+      "count_change_pct": 0.8299
+    },
+    {
+      "date": "2023-11-01",
+      "eligible_ticker_count": 486,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2023-12-01",
+      "eligible_ticker_count": 489,
+      "count_change": 3.0,
+      "count_change_pct": 0.6173
+    },
+    {
+      "date": "2024-01-02",
+      "eligible_ticker_count": 491,
+      "count_change": 2.0,
+      "count_change_pct": 0.409
+    },
+    {
+      "date": "2024-02-01",
+      "eligible_ticker_count": 491,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-03-01",
+      "eligible_ticker_count": 491,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-04-01",
+      "eligible_ticker_count": 491,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-05-02",
+      "eligible_ticker_count": 491,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-06-03",
+      "eligible_ticker_count": 492,
+      "count_change": 1.0,
+      "count_change_pct": 0.2037
+    },
+    {
+      "date": "2024-07-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-08-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-09-02",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-10-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-11-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2024-12-02",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-01-02",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-02-03",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-03-03",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-04-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-05-02",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-06-02",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-07-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-08-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-09-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-10-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-11-03",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    },
+    {
+      "date": "2025-12-01",
+      "eligible_ticker_count": 492,
+      "count_change": 0.0,
+      "count_change_pct": 0.0
+    }
+  ]
+}

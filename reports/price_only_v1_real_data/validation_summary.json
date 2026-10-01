@@ -1,0 +1,33 @@
+{
+  "price_coverage": {
+    "requested_warmup_start": "2006-08-13",
+    "requested_end_date": "2025-12-31",
+    "available_start_date": "1996-01-01",
+    "available_end_date": "2026-01-02",
+    "has_required_warmup": true,
+    "has_required_end_date": true
+  },
+  "ticker_coverage": {
+    "expected_universe_tickers": 492,
+    "tickers_with_prices": 492,
+    "coverage_pct": 100.0
+  },
+  "benchmark_coverage": {
+    "nifty_50": {
+      "symbol": "^NSEI",
+      "rows": 4489,
+      "start_date": "2007-09-17",
+      "end_date": "2026-01-02",
+      "has_full_window": true
+    },
+    "nifty_500": {
+      "symbol": "^CRSLDX",
+      "rows": 4986,
+      "start_date": "2005-09-26",
+      "end_date": "2026-01-02",
+      "has_full_window": true
+    }
+  },
+  "missing_data_percentage": 0.0001,
+  "rebalance_day_open_availability_pct": 100.0
+}

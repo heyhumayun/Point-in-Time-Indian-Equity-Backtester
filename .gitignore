@@ -1,0 +1,126 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Data Files
+# =========================
+
+# Raw downloaded market data
+data/raw/
+
+# Generated datasets
+data/processed/prices.csv
+data/processed/*.parquet
+
+# Keep schema/template files
+!data/processed/universe.csv
+!data/processed/fundamentals_pti.csv
+
+# =========================
+# Outputs
+# =========================
+
+# Backtest results
+outputs/
+reports/demo_backtest/
+
+# Generated plots
+*.png
+*.svg
+*.pdf
+
+# But keep README assets if any
+!docs/images/
+
+# =========================
+# Database Files
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Build Artifacts
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Coverage & Profiling
+# =========================
+.prof
+.profraw
+.profdata
+
+# =========================
+# Codex / AI Agent Files
+# =========================
+.codex/
+.agents/
+
+# =========================
+# Temporary Work Area
+# =========================
+work/
+tmp/
+temp/
+
+# =========================
+# Secrets / API Keys
+# =========================
+secrets/
+credentials.json
+kite_api_key.json
+broker_credentials.json
